@@ -20,9 +20,10 @@ body {
 }
 
 nav {
-    background: green;
+    background: white;
     padding: 0px 20px;
     height: 50px;
+    color: black;
 }
 
 ul {
@@ -30,7 +31,7 @@ ul {
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -73,7 +74,7 @@ a:hover {
 }
 
 .section-top {
-    padding: 0px 30px;
+    padding: 0px 40px;
     margin-bottom: 80px;
 }
 
@@ -86,7 +87,6 @@ a:hover {
 }
 
 .section-top__text {
-    width: 400px;
     margin: auto;
     margin-bottom: 30px;
     text-align: center;
@@ -201,4 +201,93 @@ a:hover {
 .quote-card__quote {
     margin-bottom: 5px;
     height: 15px;
+}
+
+.section-bottom {
+    padding: 80px 40px 80px;   
+    color: white;
+    background-color: cadetblue;
+
+}
+
+.section-bottom__title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-bottom__input {
+    width: 320px;
+    margin: auto;
+}
+
+.section-bottom__input .input-email{
+    margin-bottom: 5px;
+}
+
+.section-bottom-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+background-color: hsla(215, 75%, 78%, 1);
+}
+
+[class^="icon"] {
+  width: 23px;
+  height: 20px;
+}
+
+.icon {
+    margin-right: 20px;
+    
+}
+
+.footer__logo {
+    margin-bottom: 40px;
+    width: 200px;
+    color: white;
+}
+
+.footer__row {
+    margin-bottom: 20px;
+     display: flex;
+    align-items: center;
+}
+
+.footer__row__container {
+    margin-bottom: 70px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.social-icon {    
+    width: 15px;  
+    fill: red;
+    margin-left: 1px;
+}
+
+.social-outline {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.footer {
+        background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 70px 40px 30px;
 }
