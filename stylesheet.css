@@ -33,6 +33,8 @@ body {
 }
 
 nav {
+    margin: auto;
+    max-width: 1440px;
     background: white;
     padding: 0px 20px;
     height: 50px;
@@ -87,39 +89,40 @@ a:hover {
 }
 
 .section-top {
+    display: flex;
+    flex-direction: column;
     padding: 0px 40px;
     margin-bottom: 80px;
+    text-align: center;
 }
 
 .section-top__title {        
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     line-height: 40px;
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 
 .section-top__text {
     margin: auto;
     margin-bottom: 30px;
-    text-align: center;
 }
 
-.input-email {
+.input-email {  
     width: 100%;
     height: 45px;
     border-radius: 5px;
     border: 1px solid black;
     margin-bottom: 15px;
-    padding: 10px;
+    padding-left: 25px;
 }
 
 .section-bottom__input .button { 
     font-size: 14px;
 }
 
-.button {
+.button { 
     width: 100%;
     height: 45px;
     background-color: dodgerblue;
@@ -323,3 +326,67 @@ footer {
 .quote-card__text {
     font-size: 14px;
 }
+
+
+@media only screen and (min-width: 975px) {
+    body {
+        
+    }
+
+    main {
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    /*    Top Section */
+    .section-top {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .section-top__image {
+        width: 50%;
+        flex-grow: 1;
+        order: 2;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .section-top__title {        
+        text-align: left;
+    }
+
+    .section-top__input {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section-top__input .input-email { 
+        margin-right: 10px;
+        flex-grow: 1;
+        width: auto;
+    }
+
+    .section-top__input .button {
+        flex-grow: 1;
+        width: auto;        
+    }
+
+    .section-top__left {
+        display: flex;
+        flex-direction: column;
+        margin: auto 
+    }
+
+    /*    Mid Section */
+
+
+}
+
+
+
+
+
+
