@@ -325,6 +325,9 @@ footer {
     background-color: hsla(215, 75%, 78%, 1);
 }
 
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
 /* Desktop Styles */
 @media only screen and (min-width: 865px) {
     main {
@@ -454,13 +457,3 @@ footer {
         justify-content: space-between;
     } 
 }
-
-
-
-
-
-
-
-
-
-
